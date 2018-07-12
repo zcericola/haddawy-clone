@@ -4,6 +4,6 @@
 
 ## Hosted here: [https://zcericola.github.io/haddawy-clone/](https://zcericola.github.io/haddawy-clone/)
 
-### Note: This isn't mobile responsive, and I've disabled most of the links. 
+### Note: This isn't mobile responsive, and I've disabled most of the links. If I continue to work on it, I'll update.
 
 
