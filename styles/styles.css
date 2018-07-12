@@ -1,0 +1,126 @@
+.logo {
+  font-family: 'montserrat', sans-serif;
+  font-size: 2.1em;
+  letter-spacing: 3px;
+}
+
+.landing-img {
+  height: 700px;
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+
+.last-name {
+  font-weight: 900;
+  text-shadow: 1px 0 #888888;
+}
+
+nav {
+  width: 75%;
+  margin: 2.2em auto;
+  height: auto;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-start;
+  margin-top: 1.5em;
+  font-family: 'open sans', sans-serif;
+}
+
+.sub-nav {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  height: auto;
+  width: auto;
+  padding: 7px 9px;
+  border: 1px solid #888888;
+  z-index: 1;
+  top: 110px;
+}
+
+#gallery-menu {
+  left: 250px;
+}
+
+#press-menu {
+  left: 560px;
+}
+
+.dropdown-links {
+  margin: 7px 0;
+  z-index: inherit;
+}
+
+li {
+  margin: 0 1.5em 0 0;
+  color: #888888;
+}
+
+li:hover {
+  color: black;
+}
+
+/* display the drop down menu on hover */
+.hover-menu:hover .sub-nav {
+  display: block;
+  top: 110px;
+  left: 250px;
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  height: 800px;
+}
+
+button {
+  position: absolute;
+  z-index: 99;
+  height: 50px;
+  width: 50px;
+  background: rgb(255, 255, 255, 0.1);
+  outline: none;
+  color: black;
+}
+
+button:hover {
+  background: rgb(0, 0, 0, 0.2);
+  color: white;
+}
+
+button:focus {
+  outline: none;
+}
+
+.prev {
+  top: 40em;
+  left: 0;
+}
+
+.next {
+  top: 40em;
+  right: 0;
+}
+
+.carousel {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.slide {
+  display: block;
+  margin: 0 auto;
+}
+
+/* disables links that I didn't build out */
+.disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
